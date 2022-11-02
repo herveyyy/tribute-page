@@ -1,0 +1,91 @@
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
+
+body{
+background-color: black;
+margin-left: 0;
+margin-right: 0;
+}
+
+img{
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    }
+
+#image{
+    height: 125px auto;
+    width: 100%;
+    margin: 25px auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    
+    display: block;
+    
+    }
+#title h1{
+margin-top: 1em;
+display: flex;
+justify-content: center;
+}
+#title h2{
+margin-top: -5px;
+
+display: flex;
+justify-content: center;
+}
+#main{
+font-family: monospace, bold;
+color: whitesmoke;
+justify-content: center;
+}
+#img-div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#img-caption{
+   display: flex;
+   justify-content: center;
+
+}
+#tribute-info{
+    display: flex;
+   justify-content: center;
+   text-align: justify;
+   margin-left: 15em;
+   margin-right: 15em;
+ }
+.parent-line{
+    display: flex;
+    justify-content: center;
+}
+.line{
+background-color: white;
+width: 75%;
+height: 2px;
+margin-top: 100px;
+}
+#tribute-link{
+    color: white;
+}
+#tribute-link:link{
+    text-decoration: none;
+}
+#tribute-link:visited { 
+    text-decoration: none; 
+}
+#tribute-link:hover { 
+    text-decoration: none; 
+    color: gray;
+}
+
+
+#tribute-link:active { 
+    text-decoration: none; 
+}
+#tribute-link p{
+    text-align: center;
+}
